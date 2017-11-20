@@ -48,7 +48,7 @@ head(vector.boot)
 ```{r}
 apply(vector.boot, MARGIN = 2, sd)
 ```
-##### For some reason, the sampling isn't working for me. I have used the code from a youtube tutorial on bootstrapping linear regression (with repeat), and here is the link to it just in case: https://www.youtube.com/watch?v=ydtOTctg5So. However, even though I have spent quite a bit of time troubleshooting, I can't seem to understand what the error is. But for what it's worth, I would expect my errors to go down because I'm using a reasonably big number of observations for the analysis.
+##### For some reason, the sampling isn't working for me. I have used the code from a youtube tutorial on bootstrapping linear regression (with repeat), and here is the link to it just in case: https://www.youtube.com/watch?v=ydtOTctg5So. However, even though I have spent quite a bit of time troubleshooting, I can't seem to understand what the error is. But for what it's worth, I would expect my errors to go down because I'm using a reasonably big number of observations for the analysis. Technically, it should work fine but it's spitting out the same coefficients 1000 times instead of sampling new ones.
 
 #### Percentile CIs 
 ```{r}
